@@ -49,7 +49,7 @@ Subsequently:
 
 An AViT module from [2] was implemented into a normal ViT for classification, however, there was not sufficient time for implementation and training of the module into the ViTDet object detector. For future work, the A-ViT module will be implemented into the ViTDet object detector and then modified such that the module prunes redundant tokens based on frame-to-frame spatial similarity as well as spatial image complexity. Once this is completed, the object detector can then be implemented with Deep-SORT for improved tracking performance.
 
-## Run
+# Run
 
 It should be noted that this project is **NOT** maintained. 
 
@@ -61,7 +61,7 @@ It should be noted that this project is **NOT** maintained.
     * The model can be experimented on MOT17 using the [experiments file](/ViTDet/experiments.py) 
 
 
-## Final Report 
+# Final Report 
 
 The final report for the project can be found [here](/UG_Research_Report_Final.pdf), and the presentation given in the project viva can be found [here](/Presentation.pptx).
 
