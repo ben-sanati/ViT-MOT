@@ -16,8 +16,11 @@ Transformers have recently begun to dominate the computer vision (CV) landscape.
 
 ## Achievements
 
-Given the time frame, this was a very ambitious project that accomplished many of its objectives and created the groundwork for future novel work to be completed. A plethora of material had to be learned to implement the tracker, from object detection and its metrics, transformers, ViTs, and its variants for object detection. Subsequently, a backbone ViT called ViTDet was trained and implemented on the MOT17 and COCO datasets resulting in a high-quality object detector that was used in DBT. An AViT module from [2] was implemented into a normal ViT for classification, however, there was not sufficient time for implementation and training of the module into the ViTDet object detector.
-For future work, the A-ViT module will be implemented into the ViTDet object detector and then modified such that the module prunes redundant tokens based on frame-to-frame spatial similarity as well as spatial image complexity. Once this is completed, the object detector can then be implemented with Deep-SORT for improved tracking performance.
+Given the time frame, this was a very ambitious project that accomplished many of its objectives and created the groundwork for future novel work to be completed. A plethora of material had to be learned to implement the tracker, from object detection and its metrics, transformers, ViTs, and its variants for object detection. Subsequently, a backbone ViT called ViTDet was trained and implemented on the MOT17 and COCO datasets resulting in a high-quality object detector that was used in DBT. 
+
+[![Example of model on MOT17 dataset](/output_media/MOT17_example.gif)]
+
+An AViT module from [2] was implemented into a normal ViT for classification, however, there was not sufficient time for implementation and training of the module into the ViTDet object detector. For future work, the A-ViT module will be implemented into the ViTDet object detector and then modified such that the module prunes redundant tokens based on frame-to-frame spatial similarity as well as spatial image complexity. Once this is completed, the object detector can then be implemented with Deep-SORT for improved tracking performance.
 
 ## Run
 
