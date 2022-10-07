@@ -20,14 +20,18 @@ Given the time frame, this was a very ambitious project that accomplished many o
 
 Subsequently: 
     * An efficient video loader that utilized sparse temporal sampling was implemented for the MOT17 dataset
+
 <p align="center">
   <img src="/ViTDet/output_media/sparse_temporal_sampling.png" width="300"/>
 </p>
+
     * A backbone ViT called ViTDet was trained and implemented on the MOT17 and COCO datasets resulting in a high-quality object detector for video
     * The ViTDet module was evaluated on video input feeds
+
 <p align="center">
   <img src="/ViTDet/output_media/MOT17_example.gif" width="300"/>
 </p>
+
     * An A-ViT [1] module was implemented into a normal ViT for classification (not enough time to apply to ViTDet module)
 
 ## Future Work
