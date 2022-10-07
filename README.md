@@ -46,7 +46,7 @@ It should be noted that this project is **NOT** maintained.
     * python3.7, pytorch 1.11, torchvision 0.12.0, cuda 11.3, cudnn 8.2.0
     * Prepare MOT17 and MS-COCO dataset
 1. Model Use:
-    * The pre-trained ViTDet model can be attained from ![detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet) (I used the COCO mask R-CNN ViT-B version)
+    * The pre-trained ViTDet model can be attained from [detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet) (I used the COCO mask R-CNN ViT-B version)
     * The model can be experimented on MOT17 using the [experiments file](/ViTDet/experiments.py) 
 
 
