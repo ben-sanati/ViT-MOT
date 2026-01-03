@@ -16,6 +16,8 @@ Table of Contents
    * [Final Report](#final-report)
       * [References](#references)
 
+The final report for the project can be found [here](/UG_Research_Report_Final.pdf).
+
 # Improving ViT Efficiency for MOT: Dynamic Tokenization
 
 ## Motivation 
@@ -61,8 +63,9 @@ It should be noted that this project is **NOT** maintained.
 
 # Final Report 
 
-The final report for the project can be found [here](/UG_Research_Report_Final.pdf), and the presentation given in the project viva can be found [here](https://southampton.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b19cd16d-dcec-421c-9566-af2000cd60b8&start=6743.677468), with the slides found [here](/Presentation.pptx).
+The final report for the project can be found [here](/UG_Research_Report_Final.pdf) and the presentation slides can be accessed [here](/Presentation.pptx).
 
 ### References 
 
 [1] H. Yin, A. Vahdat, J. M. Alvarez, A. Mallya, J. Kautz, and P. Molchanov, “A-vit: Adaptive tokens for efficient vision transformer,” in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp.10 809–10 818. 
+
